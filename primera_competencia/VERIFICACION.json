@@ -1,0 +1,108 @@
+{
+  "status": "identico_byte_por_byte",
+  "rows": 10500,
+  "sha256": "c8758214110f92cf200ffda43e2960def98a5924d5ddde88b75a86d3972bcef3",
+  "expected_sha256": "c8758214110f92cf200ffda43e2960def98a5924d5ddde88b75a86d3972bcef3",
+  "models": [
+    {
+      "index": 0,
+      "max_abs_error": 0.0,
+      "file_sha256": "d22a4a15b38c7d6fae5f05827a7782a2001d76e3395708f4955286eaa3f28387"
+    },
+    {
+      "index": 1,
+      "max_abs_error": 0.0,
+      "file_sha256": "164c23ae4e9993c10ee42e96d33416876840899e8c4c56b9a15f8a4be61e0e6b"
+    },
+    {
+      "index": 2,
+      "max_abs_error": 0.0,
+      "file_sha256": "f1196f1c7bc2c4fd89618ca80120fd34e5ad00f6c84433994cfce199cb8c14cc"
+    },
+    {
+      "index": 3,
+      "max_abs_error": 0.0,
+      "file_sha256": "1d13f9f0a2aeba395401430712eb2202f2c8e405540d0090269f028a09e96f6e"
+    },
+    {
+      "index": 4,
+      "max_abs_error": 0.0,
+      "file_sha256": "d8ac65f9b0fd8fe65d0f705239fe15c4b92b20b9fc643fceac679129ee036b23"
+    },
+    {
+      "index": 6,
+      "max_abs_error": 0.0,
+      "file_sha256": "8836823b5e0984147be3741716b4c596ff5513a7cb94b9b14dcb6da92f57fee4"
+    },
+    {
+      "index": 7,
+      "max_abs_error": 0.0,
+      "file_sha256": "1f7b586168746f11db3660000d224b2a442ad9f74e919c980f7a368a1ad399ce"
+    },
+    {
+      "index": 8,
+      "max_abs_error": 0.0,
+      "file_sha256": "df7c894d73c4c2b4339bb384e823ae45863e17e04dcf51a975ec1ff89446e46c"
+    },
+    {
+      "index": 10,
+      "max_abs_error": 0.0,
+      "file_sha256": "0224de9f0277254690b00918b9796240af844ddf7c59abfb995c62d47e40ee2b"
+    },
+    {
+      "index": 11,
+      "max_abs_error": 0.0,
+      "file_sha256": "896fec4e0bc08dddcf30b2568e79c0959fd6b396bdcd39a41a7e263220e37899"
+    }
+  ],
+  "seconds": 254.39,
+  "feature_matrices": {
+    "202103": {
+      "x": "d04230dd9c6d1ff0b199c1e8e627a5deba2857e0a25c11fb66140dd9a89fffce",
+      "ids": "d1ed46194713ab46edc0fdbbd92b89ebfeb2308d0888e9776cd62857b924a2b2",
+      "y": "dedb01be9f81a84406144e11d2b97e02e717bca990bac1b971276937970edad2"
+    },
+    "202104": {
+      "x": "877c4d55895e77f7629bc14911c4ce83989f346db6b09de6d6c96497ddb13783",
+      "ids": "6d09fde6cb63ca92704c6f8a6c8356e658a62f3f34d171f5715b44d0f12d3b87",
+      "y": "886753f6bbdc790394768db09ac7e8c7ffbaf6242b402bdbd2edafd3545920c9"
+    },
+    "202105": {
+      "x": "d3e7ad947f770b2cf70af7cade0465a6ac62fd4165e0665315ab85a539a808f9",
+      "ids": "2ec641545551e3195e0d1da33776ccd9754b7709c02f11d69e0ed170d99561fb",
+      "y": "568dd8e1a8ccd38176349ed1c643c2b8a39e2c58dcdb87df6604b7d9828e0743"
+    },
+    "202106": {
+      "x": "39c08d5a58bb7c74a133d06833a3aaef511a1270a7226efe972e48eded630d85",
+      "ids": "d0145aef50c5030fe924a99ef01c729df50357cc61c0555694a66fc1490f13b2",
+      "y": "1b0ccf1967e64079488311b5b9f65093ebfb99e98363a44e41405ec2dcb7c425"
+    },
+    "202107": {
+      "x": "188157d1d45f1e56ec37e7764044d106f598cf77c560bb2460391968b614ce7b",
+      "ids": "a0658cec9317a2a438cdba1c10a1b26c7413414c8828d4154ffa228463933135",
+      "y": "19a3c293c49ba03a03d96d08e0cc07727cad8aa010a203a3637e58e40d2914d1"
+    },
+    "202108": {
+      "x": "0e7c418a8ed3253297443fbbb15cc9152bd5ac718bd97118a8c4c14987bd2894",
+      "ids": "818aa986d146169696bd5d0c6ec2972970532ffb791016b41f8bb86b9ec933f8",
+      "y": "8d6e9318d3baeeaf4d887d973c7d350b7285c0c322800610e0557a583c73934d"
+    }
+  },
+  "source_dataset_sha256": "a0a76b88dddbc521f97801fe45c140d3229bdd403ff225c8db332333169fd33c",
+  "parameter_provenance": "Twelve configurations checked against the original Optuna SQLite study.",
+  "raw_input_without_target": {
+    "sha256": "c72c8f5c1149f1d972e996c2963c5e3dbb31eb38cfe41c2bb1bbaf847d7a7ca1",
+    "all_matrices_ids_labels_match": true
+  },
+  "retraining_check": {
+    "scope": "One component retrained from the reconstructed competition matrices. The other nine stored components were verified by inference, not retrained in this packaging run.",
+    "components": [
+      {
+        "index": 8,
+        "sha256": "6a60e415eec77c356ebf0b685ebe93e13d572f0d7f360864685cbf6b36fbb6ef",
+        "max_abs_prediction_error": 0.0,
+        "seconds": 641.87
+      }
+    ]
+  }
+}

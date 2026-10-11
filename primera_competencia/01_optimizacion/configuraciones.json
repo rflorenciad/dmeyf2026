@@ -1,0 +1,350 @@
+[
+  {
+    "index": 0,
+    "trial": 0,
+    "seed": 882026,
+    "num_iterations": 3686,
+    "num_leaves": 8,
+    "min_sum_hessian_in_leaf": 2.7352984809656173,
+    "auc": 0.9210475027324314,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 3382,
+        "cap": 4000,
+        "cap_reached": false,
+        "auc_both": 0.9239218588034556,
+        "auc_baja2": 0.8947877474417035,
+        "gain_m": 264.55
+      },
+      {
+        "month": 202106,
+        "best_iteration": 3991,
+        "cap": 4000,
+        "cap_reached": false,
+        "auc_both": 0.9181731466614074,
+        "auc_baja2": 0.9015764921395627,
+        "gain_m": 365.75
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "trial": 2,
+    "seed": 884044,
+    "num_iterations": 2725,
+    "num_leaves": 32,
+    "min_sum_hessian_in_leaf": 53.43371863563946,
+    "auc": 0.9183725436142884,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 2760,
+        "cap": 8000,
+        "cap_reached": false,
+        "auc_both": 0.9200440850266495,
+        "auc_baja2": 0.8911039529284456,
+        "gain_m": 255.75
+      },
+      {
+        "month": 202106,
+        "best_iteration": 2690,
+        "cap": 8000,
+        "cap_reached": false,
+        "auc_both": 0.9167010022019273,
+        "auc_baja2": 0.9020651240956781,
+        "gain_m": 376.75
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "trial": 3,
+    "seed": 885053,
+    "num_iterations": 3880,
+    "num_leaves": 8,
+    "min_sum_hessian_in_leaf": 2.7352984809656173,
+    "auc": 0.9209430433112686,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 3760,
+        "cap": 4000,
+        "cap_reached": false,
+        "auc_both": 0.9239358968568764,
+        "auc_baja2": 0.8951450756223873,
+        "gain_m": 265.65
+      },
+      {
+        "month": 202106,
+        "best_iteration": 4000,
+        "cap": 4000,
+        "cap_reached": true,
+        "auc_both": 0.9179501897656609,
+        "auc_baja2": 0.9010743791014781,
+        "gain_m": 369.05
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "trial": 4,
+    "seed": 886062,
+    "num_iterations": 2815,
+    "num_leaves": 32,
+    "min_sum_hessian_in_leaf": 53.43371863563946,
+    "auc": 0.9182668866382648,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 3030,
+        "cap": 8000,
+        "cap_reached": false,
+        "auc_both": 0.9200139349066541,
+        "auc_baja2": 0.8905541624453523,
+        "gain_m": 251.35
+      },
+      {
+        "month": 202106,
+        "best_iteration": 2600,
+        "cap": 8000,
+        "cap_reached": false,
+        "auc_both": 0.9165198383698757,
+        "auc_baja2": 0.9017322369062659,
+        "gain_m": 374.55
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "trial": 5,
+    "seed": 887071,
+    "num_iterations": 2000,
+    "num_leaves": 24,
+    "min_sum_hessian_in_leaf": 1.805419354749962,
+    "auc": 0.9214537690392606,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 2000,
+        "cap": 2000,
+        "cap_reached": true,
+        "auc_both": 0.9246783812571049,
+        "auc_baja2": 0.8959454495394691,
+        "gain_m": 264.55
+      },
+      {
+        "month": 202106,
+        "best_iteration": 2000,
+        "cap": 2000,
+        "cap_reached": true,
+        "auc_both": 0.9182291568214163,
+        "auc_baja2": 0.901986226524369,
+        "gain_m": 371.25
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "trial": 6,
+    "seed": 888080,
+    "num_iterations": 2000,
+    "num_leaves": 24,
+    "min_sum_hessian_in_leaf": 1.096997273270575,
+    "auc": 0.9209241840794222,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 2000,
+        "cap": 2000,
+        "cap_reached": true,
+        "auc_both": 0.9243581370094998,
+        "auc_baja2": 0.895779828658029,
+        "gain_m": 262.35
+      },
+      {
+        "month": 202106,
+        "best_iteration": 2000,
+        "cap": 2000,
+        "cap_reached": true,
+        "auc_both": 0.9174902311493448,
+        "auc_baja2": 0.9011895688851668,
+        "gain_m": 371.25
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "trial": 7,
+    "seed": 889089,
+    "num_iterations": 1990,
+    "num_leaves": 24,
+    "min_sum_hessian_in_leaf": 58.476778458703784,
+    "auc": 0.9176107398272131,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 2000,
+        "cap": 2000,
+        "cap_reached": true,
+        "auc_both": 0.9194142250795572,
+        "auc_baja2": 0.8907270370020702,
+        "gain_m": 250.25
+      },
+      {
+        "month": 202106,
+        "best_iteration": 1980,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9158072545748691,
+        "auc_baja2": 0.9010468247308722,
+        "gain_m": 366.85
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "trial": 8,
+    "seed": 890098,
+    "num_iterations": 1815,
+    "num_leaves": 48,
+    "min_sum_hessian_in_leaf": 5.988756390299209,
+    "auc": 0.9226246580115524,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 1650,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.924840852800852,
+        "auc_baja2": 0.8963070537193925,
+        "gain_m": 262.35
+      },
+      {
+        "month": 202106,
+        "best_iteration": 1980,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9204084632222527,
+        "auc_baja2": 0.9049900886951279,
+        "gain_m": 385.55
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "trial": 9,
+    "seed": 891107,
+    "num_iterations": 1665,
+    "num_leaves": 64,
+    "min_sum_hessian_in_leaf": 6.863703572414329,
+    "auc": 0.9225772020945359,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 1400,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9246144007207768,
+        "auc_baja2": 0.8960865222338554,
+        "gain_m": 261.25
+      },
+      {
+        "month": 202106,
+        "best_iteration": 1930,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9205400034682949,
+        "auc_baja2": 0.905255252023939,
+        "gain_m": 384.45
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "trial": 10,
+    "seed": 892116,
+    "num_iterations": 1835,
+    "num_leaves": 48,
+    "min_sum_hessian_in_leaf": 10.764630245621282,
+    "auc": 0.9221617389190826,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 1810,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9239600526480546,
+        "auc_baja2": 0.8951598158243865,
+        "gain_m": 256.85
+      },
+      {
+        "month": 202106,
+        "best_iteration": 1860,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9203634251901107,
+        "auc_baja2": 0.9052893988838624,
+        "gain_m": 391.05
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "trial": 11,
+    "seed": 893125,
+    "num_iterations": 2840,
+    "num_leaves": 16,
+    "min_sum_hessian_in_leaf": 26.896681868485842,
+    "auc": 0.9193798794432404,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 2480,
+        "cap": 4000,
+        "cap_reached": false,
+        "auc_both": 0.9216765426259815,
+        "auc_baja2": 0.89217398292959,
+        "gain_m": 252.45
+      },
+      {
+        "month": 202106,
+        "best_iteration": 3200,
+        "cap": 4000,
+        "cap_reached": false,
+        "auc_both": 0.9170832162604993,
+        "auc_baja2": 0.9010416401291038,
+        "gain_m": 374.55
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "trial": 12,
+    "seed": 894134,
+    "num_iterations": 1785,
+    "num_leaves": 64,
+    "min_sum_hessian_in_leaf": 8.815259920683634,
+    "auc": 0.9221736693967795,
+    "folds": [
+      {
+        "month": 202105,
+        "best_iteration": 1640,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9240763450888448,
+        "auc_baja2": 0.8953562436574443,
+        "gain_m": 256.85
+      },
+      {
+        "month": 202106,
+        "best_iteration": 1930,
+        "cap": 2000,
+        "cap_reached": false,
+        "auc_both": 0.9202709937047141,
+        "auc_baja2": 0.9052247757279828,
+        "gain_m": 381.15
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+salida*/
+reentrenamiento/
+reevaluacion/
+nueva_busqueda/
+optimizacion_nueva/
+competencia_01*.csv
+data/
+!03_prediccion_final/prediccion_final.csv
