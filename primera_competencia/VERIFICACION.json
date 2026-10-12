@@ -1,8 +1,149 @@
 {
   "status": "identico_byte_por_byte",
-  "rows": 10500,
-  "sha256": "c8758214110f92cf200ffda43e2960def98a5924d5ddde88b75a86d3972bcef3",
-  "expected_sha256": "c8758214110f92cf200ffda43e2960def98a5924d5ddde88b75a86d3972bcef3",
+  "candidate_models": 20,
+  "rows_per_file": 12000,
+  "files": [
+    {
+      "ensemble": 1,
+      "file": "FlorV95_V88_dd5114891f_ensamble01_k12000.csv",
+      "rows": 12000,
+      "sha256": "92bda6e009d989b018cd180457f96fcf2f40bd0efcf59c80112c9e20d696691c",
+      "expected_sha256": "92bda6e009d989b018cd180457f96fcf2f40bd0efcf59c80112c9e20d696691c"
+    },
+    {
+      "ensemble": 2,
+      "file": "FlorV95_V88_dd5114891f_ensamble02_k12000.csv",
+      "rows": 12000,
+      "sha256": "a362a326e67dd91fc5f2956d8bc2645a29bdf911d7b1c12d007dc7a691ae5d9c",
+      "expected_sha256": "a362a326e67dd91fc5f2956d8bc2645a29bdf911d7b1c12d007dc7a691ae5d9c"
+    },
+    {
+      "ensemble": 3,
+      "file": "FlorV95_V88_dd5114891f_ensamble03_k12000.csv",
+      "rows": 12000,
+      "sha256": "c6db5e1ed79e2f43a85f80752ac3bb621763b646eec59a734f8834fb85ed2630",
+      "expected_sha256": "c6db5e1ed79e2f43a85f80752ac3bb621763b646eec59a734f8834fb85ed2630"
+    },
+    {
+      "ensemble": 4,
+      "file": "FlorV95_V88_dd5114891f_ensamble04_k12000.csv",
+      "rows": 12000,
+      "sha256": "4630a6c3989f4e4eb0f603b3a6ce018f9ce58e433b55f54e6f26c5a343fe9906",
+      "expected_sha256": "4630a6c3989f4e4eb0f603b3a6ce018f9ce58e433b55f54e6f26c5a343fe9906"
+    },
+    {
+      "ensemble": 5,
+      "file": "FlorV95_V88_dd5114891f_ensamble05_k12000.csv",
+      "rows": 12000,
+      "sha256": "e4d1ebaab8a35ac12ee48cef2610f630e0ca8fd0162cf03af509110697087076",
+      "expected_sha256": "e4d1ebaab8a35ac12ee48cef2610f630e0ca8fd0162cf03af509110697087076"
+    },
+    {
+      "ensemble": 6,
+      "file": "FlorV95_V88_dd5114891f_ensamble06_k12000.csv",
+      "rows": 12000,
+      "sha256": "5539d86fa22d5f7f5e66ebddf58b62237a265a9f468928ab3aa433a281045cdf",
+      "expected_sha256": "5539d86fa22d5f7f5e66ebddf58b62237a265a9f468928ab3aa433a281045cdf"
+    },
+    {
+      "ensemble": 7,
+      "file": "FlorV95_V88_dd5114891f_ensamble07_k12000.csv",
+      "rows": 12000,
+      "sha256": "cfe13801c37e55f673b84c45369a2e282571ba8094472c2fc756f7ee72670539",
+      "expected_sha256": "cfe13801c37e55f673b84c45369a2e282571ba8094472c2fc756f7ee72670539"
+    },
+    {
+      "ensemble": 8,
+      "file": "FlorV95_V88_dd5114891f_ensamble08_k12000.csv",
+      "rows": 12000,
+      "sha256": "c082a10a3180ab1b06cf7074478f752cc74b2f584d3495d6c5f03866afc51b5d",
+      "expected_sha256": "c082a10a3180ab1b06cf7074478f752cc74b2f584d3495d6c5f03866afc51b5d"
+    },
+    {
+      "ensemble": 9,
+      "file": "FlorV95_V88_dd5114891f_ensamble09_k12000.csv",
+      "rows": 12000,
+      "sha256": "6943d460ad899943a12bcfa12e3cc5c265385c1dbc3b705087bb97f48d842e1c",
+      "expected_sha256": "6943d460ad899943a12bcfa12e3cc5c265385c1dbc3b705087bb97f48d842e1c"
+    },
+    {
+      "ensemble": 10,
+      "file": "FlorV95_V88_dd5114891f_ensamble10_k12000.csv",
+      "rows": 12000,
+      "sha256": "9dc53bcef057aa9b3774ee5a1dd5388f64d9b71865765544373ee938ab54e74f",
+      "expected_sha256": "9dc53bcef057aa9b3774ee5a1dd5388f64d9b71865765544373ee938ab54e74f"
+    },
+    {
+      "ensemble": 11,
+      "file": "FlorV95_V88_dd5114891f_ensamble11_k12000.csv",
+      "rows": 12000,
+      "sha256": "67281c79cd4b56d90b24fc32cf2af54b6c9018bd3ce4b10858e1811b7cb66161",
+      "expected_sha256": "67281c79cd4b56d90b24fc32cf2af54b6c9018bd3ce4b10858e1811b7cb66161"
+    },
+    {
+      "ensemble": 12,
+      "file": "FlorV95_V88_dd5114891f_ensamble12_k12000.csv",
+      "rows": 12000,
+      "sha256": "4704a5889894b9ec9e543da2021e3983afacbf808dc2913f23692036779c1037",
+      "expected_sha256": "4704a5889894b9ec9e543da2021e3983afacbf808dc2913f23692036779c1037"
+    },
+    {
+      "ensemble": 13,
+      "file": "FlorV95_V88_dd5114891f_ensamble13_k12000.csv",
+      "rows": 12000,
+      "sha256": "02068ef4e8e2225fb95bc92550f964d0cd71b9fea91648abe8fbce54c970c399",
+      "expected_sha256": "02068ef4e8e2225fb95bc92550f964d0cd71b9fea91648abe8fbce54c970c399"
+    },
+    {
+      "ensemble": 14,
+      "file": "FlorV95_V88_dd5114891f_ensamble14_k12000.csv",
+      "rows": 12000,
+      "sha256": "9cbb6ef2b6f782adf7ede85841ae1ec777bacac7a79ddfebcc57cb4f3f7a6f56",
+      "expected_sha256": "9cbb6ef2b6f782adf7ede85841ae1ec777bacac7a79ddfebcc57cb4f3f7a6f56"
+    },
+    {
+      "ensemble": 15,
+      "file": "FlorV95_V88_dd5114891f_ensamble15_k12000.csv",
+      "rows": 12000,
+      "sha256": "044bc28640dde21b63fcc188427c68eba47c126cc724a614ee0f744160ac18b1",
+      "expected_sha256": "044bc28640dde21b63fcc188427c68eba47c126cc724a614ee0f744160ac18b1"
+    },
+    {
+      "ensemble": 16,
+      "file": "FlorV95_V88_dd5114891f_ensamble16_k12000.csv",
+      "rows": 12000,
+      "sha256": "f8604bfba09bf209cb10b4d247a356456ca94f67c905c6e1544b012c334af6f1",
+      "expected_sha256": "f8604bfba09bf209cb10b4d247a356456ca94f67c905c6e1544b012c334af6f1"
+    },
+    {
+      "ensemble": 17,
+      "file": "FlorV95_V88_dd5114891f_ensamble17_k12000.csv",
+      "rows": 12000,
+      "sha256": "6676dab96e0dbfb96aad082feb46b09af6c4e0cd541089f95482495e7fc19485",
+      "expected_sha256": "6676dab96e0dbfb96aad082feb46b09af6c4e0cd541089f95482495e7fc19485"
+    },
+    {
+      "ensemble": 18,
+      "file": "FlorV95_V88_dd5114891f_ensamble18_k12000.csv",
+      "rows": 12000,
+      "sha256": "2aebb0eefcd6284842839d163ece2c5534745dd1e53418adb5a54627ae652d92",
+      "expected_sha256": "2aebb0eefcd6284842839d163ece2c5534745dd1e53418adb5a54627ae652d92"
+    },
+    {
+      "ensemble": 19,
+      "file": "FlorV95_V88_dd5114891f_ensamble19_k12000.csv",
+      "rows": 12000,
+      "sha256": "ec7034db69355901adf2e7dbf4cdaa2a539555b9928322b943ec2f74fa02c416",
+      "expected_sha256": "ec7034db69355901adf2e7dbf4cdaa2a539555b9928322b943ec2f74fa02c416"
+    },
+    {
+      "ensemble": 20,
+      "file": "FlorV95_V88_dd5114891f_ensamble20_k12000.csv",
+      "rows": 12000,
+      "sha256": "1d03fee8bdc6f6ef838014f0e2ca24e869d39633e7a01229935f0f9da6df21a7",
+      "expected_sha256": "1d03fee8bdc6f6ef838014f0e2ca24e869d39633e7a01229935f0f9da6df21a7"
+    }
+  ],
   "models": [
     {
       "index": 0,
@@ -30,6 +171,11 @@
       "file_sha256": "d8ac65f9b0fd8fe65d0f705239fe15c4b92b20b9fc643fceac679129ee036b23"
     },
     {
+      "index": 5,
+      "max_abs_error": 0.0,
+      "file_sha256": "390385f8c6710f24278ef77aa409052449b0bf21b96efff35e0481ad12fe2987"
+    },
+    {
       "index": 6,
       "max_abs_error": 0.0,
       "file_sha256": "8836823b5e0984147be3741716b4c596ff5513a7cb94b9b14dcb6da92f57fee4"
@@ -45,6 +191,11 @@
       "file_sha256": "df7c894d73c4c2b4339bb384e823ae45863e17e04dcf51a975ec1ff89446e46c"
     },
     {
+      "index": 9,
+      "max_abs_error": 0.0,
+      "file_sha256": "b6d82064d49072765148e02f240abc015e4270c90ee3d09e0fe326c3d4f44f90"
+    },
+    {
       "index": 10,
       "max_abs_error": 0.0,
       "file_sha256": "0224de9f0277254690b00918b9796240af844ddf7c59abfb995c62d47e40ee2b"
@@ -55,7 +206,7 @@
       "file_sha256": "896fec4e0bc08dddcf30b2568e79c0959fd6b396bdcd39a41a7e263220e37899"
     }
   ],
-  "seconds": 254.39,
+  "seconds": 281.19,
   "feature_matrices": {
     "202103": {
       "x": "d04230dd9c6d1ff0b199c1e8e627a5deba2857e0a25c11fb66140dd9a89fffce",
@@ -95,7 +246,7 @@
     "all_matrices_ids_labels_match": true
   },
   "retraining_check": {
-    "scope": "One component retrained from the reconstructed competition matrices. The other nine stored components were verified by inference, not retrained in this packaging run.",
+    "scope": "One component retrained from the reconstructed competition matrices. The other eleven stored components were verified by inference, not retrained in this packaging run.",
     "components": [
       {
         "index": 8,
@@ -104,5 +255,12 @@
         "seconds": 641.87
       }
     ]
+  },
+  "submission": {
+    "name": "FlorFinalV88k12000",
+    "id": "1567-1791770740689465",
+    "candidate_models": 20,
+    "public_gain_mean_millions": 105.2659,
+    "public_gain_std_millions": 0.7696
   }
 }

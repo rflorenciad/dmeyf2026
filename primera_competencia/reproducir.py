@@ -1,4 +1,4 @@
-"""Genera y verifica la lista final desde el CSV de la competencia."""
+"""Genera y verifica los veinte CSV finales desde el dataset de la competencia."""
 import argparse
 import gzip
 import json
@@ -42,19 +42,30 @@ def main():
         scores.append(pred)
         checks.append({'index': entry['index'], 'max_abs_error': error, 'file_sha256': sha256(path)})
         print(f'Modelo {entry["index"]:02d}: predicciones verificadas.', flush=True)
-    mean = np.stack(scores).mean(axis=0)
-    selected = ids[np.lexsort((ids, -mean))[:CONFIG['cutoff']]]
-    assert len(selected) == len(np.unique(selected)) == 10500
-    destination = output / 'prediccion_final.csv'
-    destination.write_bytes(''.join(f'{int(client)}\n' for client in selected).encode('ascii'))
-    digest = sha256(destination)
-    expected = ROOT / '03_prediccion_final/prediccion_final.csv'
-    identical = destination.read_bytes() == expected.read_bytes()
-    report = {'status': 'identico_byte_por_byte' if identical else 'no_coincide', 'rows': len(selected), 'sha256': digest, 'expected_sha256': CONFIG['final_sha256'], 'models': checks, 'seconds': round(time.monotonic() - start, 2)}
+    scores = np.stack(scores)
+    positions = {entry['index']: j for j, entry in enumerate(CONFIG['models'])}
+    destinations = output / 'predicciones_finales'
+    destinations.mkdir(exist_ok=True)
+    files = []
+    for entry in CONFIG['ensembles']:
+        mean = scores[[positions[i] for i in entry['model_indices']]].mean(axis=0)
+        selected = ids[np.lexsort((ids, -mean))[:CONFIG['cutoff']]]
+        assert len(selected) == len(np.unique(selected)) == CONFIG['cutoff']
+        expected = ROOT / entry['file']
+        destination = destinations / expected.name
+        destination.write_bytes(''.join(f'{int(client)}\n' for client in selected).encode('ascii'))
+        digest = sha256(destination)
+        if destination.read_bytes() != expected.read_bytes() or digest != entry['sha256']:
+            raise ValueError(f'El ensamble {entry["ensemble"]} no coincide con la referencia.')
+        files.append({'ensemble': entry['ensemble'], 'file': destination.name,
+                      'rows': len(selected), 'sha256': digest, 'expected_sha256': entry['sha256']})
+        print(f'Ensamble {entry["ensemble"]:02d}: CSV idéntico byte por byte.', flush=True)
+    assert len(files) == 20
+    report = {'status': 'identico_byte_por_byte', 'candidate_models': len(files),
+              'rows_per_file': CONFIG['cutoff'], 'files': files, 'models': checks,
+              'seconds': round(time.monotonic() - start, 2)}
     (output / 'VERIFICACION.json').write_text(json.dumps(report, indent=2) + '\n')
-    if not identical or digest != CONFIG['final_sha256']:
-        raise ValueError('La lista final no coincide con la referencia.')
-    print(f'OK: {destination}\nSHA-256: {digest}', flush=True)
+    print(f'OK: veinte CSV verificados en {destinations}', flush=True)
 
 
 if __name__ == '__main__':

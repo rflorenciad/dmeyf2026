@@ -1,4 +1,4 @@
-"""Reentrenamiento de los diez componentes de la predicción final."""
+"""Reentrenamiento de los doce componentes del paquete final."""
 import argparse
 import gc
 import json

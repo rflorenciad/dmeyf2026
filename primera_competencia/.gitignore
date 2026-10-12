@@ -9,4 +9,4 @@ nueva_busqueda/
 optimizacion_nueva/
 competencia_01*.csv
 data/
-!03_prediccion_final/prediccion_final.csv
+!03_prediccion_final/*.csv
