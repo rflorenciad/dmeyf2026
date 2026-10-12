@@ -1,4 +1,4 @@
-"""Genera y verifica los veinte CSV finales desde el dataset de la competencia."""
+"""Genera y verifica el CSV final desde el dataset de la competencia."""
 import argparse
 import gzip
 import json
@@ -11,13 +11,20 @@ from src.datos import ROOT, CONFIG, preparar, sha256
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--dataset', type=Path, required=True)
+    source = p.add_mutually_exclusive_group(required=True)
+    source.add_argument('--dataset', type=Path)
+    source.add_argument('--datos', type=Path, help='Matrices previamente reconstruidas y verificadas.')
     p.add_argument('--salida', type=Path, default=Path('salida'))
     p.add_argument('--modelos', type=Path, help='Carpeta alternativa de modelos reentrenados.')
     args = p.parse_args()
     start = time.monotonic()
     output = args.salida.resolve()
-    data = preparar(args.dataset, output / 'datos')
+    output.mkdir(parents=True, exist_ok=True)
+    data = preparar(args.dataset, output / 'datos') if args.dataset else args.datos.resolve()
+    if args.datos:
+        for month in CONFIG['months']:
+            for prefix, key in [('x', 'matrix_sha256'), ('ids', 'ids_sha256'), ('y', 'labels_sha256')]:
+                assert sha256(data / f'{prefix}_{month}.npy') == CONFIG[key][str(month)]
     x = np.load(data / 'x_202108.npy', mmap_mode='r')
     ids = np.load(data / 'ids_202108.npy')
     reference = np.load(ROOT / '03_prediccion_final/predicciones_referencia.npz')
@@ -60,12 +67,12 @@ def main():
         files.append({'ensemble': entry['ensemble'], 'file': destination.name,
                       'rows': len(selected), 'sha256': digest, 'expected_sha256': entry['sha256']})
         print(f'Ensamble {entry["ensemble"]:02d}: CSV idéntico byte por byte.', flush=True)
-    assert len(files) == 20
+    assert len(files) == 1
     report = {'status': 'identico_byte_por_byte', 'candidate_models': len(files),
               'rows_per_file': CONFIG['cutoff'], 'files': files, 'models': checks,
               'seconds': round(time.monotonic() - start, 2)}
     (output / 'VERIFICACION.json').write_text(json.dumps(report, indent=2) + '\n')
-    print(f'OK: veinte CSV verificados en {destinations}', flush=True)
+    print(f'OK: CSV final verificado en {destinations}', flush=True)
 
 
 if __name__ == '__main__':

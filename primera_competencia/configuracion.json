@@ -1456,7 +1456,7 @@
     "202107": "19a3c293c49ba03a03d96d08e0cc07727cad8aa010a203a3637e58e40d2914d1",
     "202108": "8d6e9318d3baeeaf4d887d973c7d350b7285c0c322800610e0557a583c73934d"
   },
-  "selection": "For each archived subset, mean probabilities in the listed model order; score descending, client ID ascending for ties.",
+  "selection": "Mean probabilities of all twelve models in index order; score descending, client ID ascending for ties.",
   "ensembles": [
     {
       "ensemble": 1,
@@ -1464,293 +1464,6 @@
         0,
         1,
         2,
-        4,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble01_k12000.csv",
-      "sha256": "92bda6e009d989b018cd180457f96fcf2f40bd0efcf59c80112c9e20d696691c"
-    },
-    {
-      "ensemble": 2,
-      "model_indices": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble02_k12000.csv",
-      "sha256": "a362a326e67dd91fc5f2956d8bc2645a29bdf911d7b1c12d007dc7a691ae5d9c"
-    },
-    {
-      "ensemble": 3,
-      "model_indices": [
-        0,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble03_k12000.csv",
-      "sha256": "c6db5e1ed79e2f43a85f80752ac3bb621763b646eec59a734f8834fb85ed2630"
-    },
-    {
-      "ensemble": 4,
-      "model_indices": [
-        0,
-        1,
-        3,
-        4,
-        5,
-        6,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble04_k12000.csv",
-      "sha256": "4630a6c3989f4e4eb0f603b3a6ce018f9ce58e433b55f54e6f26c5a343fe9906"
-    },
-    {
-      "ensemble": 5,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble05_k12000.csv",
-      "sha256": "e4d1ebaab8a35ac12ee48cef2610f630e0ca8fd0162cf03af509110697087076"
-    },
-    {
-      "ensemble": 6,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble06_k12000.csv",
-      "sha256": "5539d86fa22d5f7f5e66ebddf58b62237a265a9f468928ab3aa433a281045cdf"
-    },
-    {
-      "ensemble": 7,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        6,
-        7,
-        8,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble07_k12000.csv",
-      "sha256": "cfe13801c37e55f673b84c45369a2e282571ba8094472c2fc756f7ee72670539"
-    },
-    {
-      "ensemble": 8,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        9,
-        10
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble08_k12000.csv",
-      "sha256": "c082a10a3180ab1b06cf7074478f752cc74b2f584d3495d6c5f03866afc51b5d"
-    },
-    {
-      "ensemble": 9,
-      "model_indices": [
-        0,
-        1,
-        2,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble09_k12000.csv",
-      "sha256": "6943d460ad899943a12bcfa12e3cc5c265385c1dbc3b705087bb97f48d842e1c"
-    },
-    {
-      "ensemble": 10,
-      "model_indices": [
-        0,
-        2,
-        3,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble10_k12000.csv",
-      "sha256": "9dc53bcef057aa9b3774ee5a1dd5388f64d9b71865765544373ee938ab54e74f"
-    },
-    {
-      "ensemble": 11,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        6,
-        7,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble11_k12000.csv",
-      "sha256": "67281c79cd4b56d90b24fc32cf2af54b6c9018bd3ce4b10858e1811b7cb66161"
-    },
-    {
-      "ensemble": 12,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        6,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble12_k12000.csv",
-      "sha256": "4704a5889894b9ec9e543da2021e3983afacbf808dc2913f23692036779c1037"
-    },
-    {
-      "ensemble": 13,
-      "model_indices": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble13_k12000.csv",
-      "sha256": "02068ef4e8e2225fb95bc92550f964d0cd71b9fea91648abe8fbce54c970c399"
-    },
-    {
-      "ensemble": 14,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        5,
-        6,
-        7,
-        8,
-        9,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble14_k12000.csv",
-      "sha256": "9cbb6ef2b6f782adf7ede85841ae1ec777bacac7a79ddfebcc57cb4f3f7a6f56"
-    },
-    {
-      "ensemble": 15,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        5,
-        6,
-        7,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble15_k12000.csv",
-      "sha256": "044bc28640dde21b63fcc188427c68eba47c126cc724a614ee0f744160ac18b1"
-    },
-    {
-      "ensemble": 16,
-      "model_indices": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble16_k12000.csv",
-      "sha256": "f8604bfba09bf209cb10b4d247a356456ca94f67c905c6e1544b012c334af6f1"
-    },
-    {
-      "ensemble": 17,
-      "model_indices": [
-        0,
-        1,
-        2,
-        3,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble17_k12000.csv",
-      "sha256": "6676dab96e0dbfb96aad082feb46b09af6c4e0cd541089f95482495e7fc19485"
-    },
-    {
-      "ensemble": 18,
-      "model_indices": [
-        2,
         3,
         4,
         5,
@@ -1761,49 +1474,21 @@
         10,
         11
       ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble18_k12000.csv",
-      "sha256": "2aebb0eefcd6284842839d163ece2c5534745dd1e53418adb5a54627ae652d92"
-    },
-    {
-      "ensemble": 19,
-      "model_indices": [
-        0,
-        2,
-        3,
-        4,
-        5,
-        6,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble19_k12000.csv",
-      "sha256": "ec7034db69355901adf2e7dbf4cdaa2a539555b9928322b943ec2f74fa02c416"
-    },
-    {
-      "ensemble": 20,
-      "model_indices": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "file": "03_prediccion_final/FlorV95_V88_dd5114891f_ensamble20_k12000.csv",
-      "sha256": "1d03fee8bdc6f6ef838014f0e2ca24e869d39633e7a01229935f0f9da6df21a7"
+      "file": "03_prediccion_final/FlorFinalV88_completo12_k12000.csv",
+      "sha256": "087d379dbc269b08cf139f91b9b8542b5855657965b379524b2d948d753c1d43"
     }
   ],
-  "submission": {
+  "previous_submission": {
     "name": "FlorFinalV88k12000",
     "id": "1567-1791770740689465",
     "candidate_models": 20,
     "public_gain_mean_millions": 105.2659,
     "public_gain_std_millions": 0.7696
-  }
+  },
+  "submission": {
+    "name": "FlorFinalV88Completo12k12000",
+    "candidate_models": 1,
+    "status": "prepared_not_received"
+  },
+  "final_sha256": "087d379dbc269b08cf139f91b9b8542b5855657965b379524b2d948d753c1d43"
 }
