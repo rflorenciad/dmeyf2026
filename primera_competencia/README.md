@@ -15,8 +15,6 @@ La predicción final es **un único archivo con 12.000 clientes de agosto de 202
 | Desvío informado | 0,0000 M; un único archivo |
 | SHA-256 | `087d379dbc269b08cf139f91b9b8542b5855657965b379524b2d948d753c1d43` |
 
-El bot confirmó la recepción de esta lista única como entrega final. El desvío cero se debe a que hay un solo archivo; no mide estabilidad entre modelos. Esta carpeta contiene una sola predicción final.
-
 ## 1. Instalación
 
 Entorno verificado: **Python 3.11**, versiones fijadas en `requirements.txt`. Se recomienda 16 GB de RAM como mínimo y 8 GB libres en disco para matrices y salidas. El dataset no se incluye en el repositorio.
@@ -116,7 +114,7 @@ La reproducción exacta verificada se realiza con los modelos incluidos. El reen
 
 Los experimentos de desarrollo usaron veinte combinaciones de diez modelos del pool de doce. La entrega final usa un único promedio completo de los doce modelos, sin escoger una combinación por su resultado público. Las predicciones individuales proceden de los mismos modelos ya entrenados y auditados.
 
-El corte de 12.000 se fijó tras comparar nueve cortes del mismo ranking de desarrollo, de 9.500 a 13.500. Entre 11.000 y 13.000 la media pública fue aproximadamente plana; se eligió el centro de esa zona en lugar del máximo puntual. Esa curva corresponde a los veinte subconjuntos exploratorios y orienta el corte; no es una medición pública de esta nueva lista ni garantiza el resultado privado.
+El corte de 12.000 se fijó tras comparar nueve cortes del mismo ranking de desarrollo, de 9.500 a 13.500. Entre 11.000 y 13.000 la media pública fue aproximadamente plana; se eligió el centro de esa zona en lugar del máximo puntual. Esa curva corresponde a los veinte subconjuntos exploratorios y orienta el corte.
 
 El archivo final se firma en `configuracion.json`, `VERIFICACION.json` y `SHA256SUMS.json`. La ejecución recalcula las probabilidades desde los modelos y comprueba la lista completa. Los doce modelos se conservan, junto con el estudio Optuna que originó sus hiperparámetros.
 
@@ -144,3 +142,5 @@ SHA256SUMS.json
 ```
 
 No hace falta ningún archivo de otros directorios del proyecto. Las salidas y el dataset quedan excluidos mediante `.gitignore`.
+
+Dudas o consultas: r.florenciad@gmail.com
