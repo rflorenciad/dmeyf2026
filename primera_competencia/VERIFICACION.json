@@ -125,8 +125,12 @@
   },
   "submission": {
     "name": "FlorFinalV88Completo12k12000",
+    "id": "1567-1791772073752266",
     "candidate_models": 1,
-    "status": "prepared_not_received"
+    "status": "received_final",
+    "public_gain_mean_millions": 104.8575,
+    "public_gain_std_millions": 0,
+    "received_date": "2026-10-11"
   },
   "verification_scope": "Twelve models recalculated on previously reconstructed matrices, all six month matrices, IDs and labels checked by SHA-256; final full-pool mean verified byte for byte. The same feature pipeline had already been tested from the original raw competition CSV."
 }

@@ -10,9 +10,12 @@ La predicción final es **un único archivo con 12.000 clientes de agosto de 202
 | Formato | Una columna de IDs enteros, sin encabezado ni índice |
 | Filas | 12.000 |
 | Mensaje de submit | FlorFinalV88Completo12k12000 |
+| Submission ID | 1567-1791772073752266 |
+| Ganancia pública | 104,8575 M |
+| Desvío informado | 0,0000 M; un único archivo |
 | SHA-256 | `087d379dbc269b08cf139f91b9b8542b5855657965b379524b2d948d753c1d43` |
 
-La media pública 105,2659 M corresponde a un paquete exploratorio de veinte listas. No es el puntaje de esta lista única. Esta carpeta contiene una sola predicción final.
+El bot confirmó la recepción de esta lista única como entrega final. El desvío cero se debe a que hay un solo archivo; no mide estabilidad entre modelos. Esta carpeta contiene una sola predicción final.
 
 ## 1. Instalación
 

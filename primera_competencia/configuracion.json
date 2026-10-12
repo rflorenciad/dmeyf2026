@@ -1487,8 +1487,12 @@
   },
   "submission": {
     "name": "FlorFinalV88Completo12k12000",
+    "id": "1567-1791772073752266",
     "candidate_models": 1,
-    "status": "prepared_not_received"
+    "status": "received_final",
+    "public_gain_mean_millions": 104.8575,
+    "public_gain_std_millions": 0,
+    "received_date": "2026-10-11"
   },
   "final_sha256": "087d379dbc269b08cf139f91b9b8542b5855657965b379524b2d948d753c1d43"
 }
